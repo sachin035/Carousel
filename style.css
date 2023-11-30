@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main-container {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  border: 1px solid black;
+  overflow: hidden;
+}
+#card-wrapper {
+  width: 1500px;
+  height: 300px;
+  display: flex;
+  position: absolute;
+}
+.image {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  /* position: absolute; */
+  position: relative;
+  left: 500px;
+}
+#left-scroll {
+  top: 50%;
+  position: absolute;
+  z-index: 1;
+}
+#right-scroll {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 1;
+}
